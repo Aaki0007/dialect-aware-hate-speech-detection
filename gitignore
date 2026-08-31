@@ -1,0 +1,67 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables / secrets
+.env
+.env.*
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+
+# Python caches
+.pytest_cache/
+.mypy_cache/
+.cache/
+
+# Logs
+*.log
+
+# ------------------------------------------------------------
+# Data
+# Tweet-level datasets are not redistributed in this repository.
+# ------------------------------------------------------------
+data/*.csv
+data/raw/
+data/processed/
+data/splits/
+
+# Third-party TwitterAAE code/model assets
+data/twitteraae/
+
+# ------------------------------------------------------------
+# Raw model outputs that may contain tweet text
+# ------------------------------------------------------------
+**/*predictions*.csv
+**/*refusals*.csv
+
+# ------------------------------------------------------------
+# RoBERTa model/checkpoint artifacts
+# ------------------------------------------------------------
+best_roberta/
+roberta_output/
+models/
+checkpoints/
+checkpoint-*/
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# ------------------------------------------------------------
+# Temporary / generated files
+# ------------------------------------------------------------
+*.tmp
+*.temp
+*.bak
