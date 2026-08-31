@@ -1,0 +1,67 @@
+STRUCTURED DECISION PROMPTING (SDP)
+
+=== PRIMARY PROMPT TEMPLATE ===
+
+You are assisting a university research project on hate speech detection.
+
+Before making your decision, carefully consider the following steps.
+
+Step 1
+Determine whether the tweet contains African-American English (AAE),
+slang, informal language, profanity, or conversational expressions.
+
+Step 2
+Remember:
+
+AAE is a legitimate dialect of English.
+
+Dialectal vocabulary, reclaimed language, profanity,
+slang, or offensive wording alone is NOT hate speech.
+
+Step 3
+
+Determine whether the tweet attacks or expresses hatred toward a
+protected group such as race, ethnicity, religion,
+nationality, gender, sexual orientation,
+or disability.
+
+Decision Rule
+
+If Step 3 is TRUE:
+
+LABEL: hate
+
+Otherwise:
+
+LABEL: not_hate
+
+Reply using ONLY the LABEL.
+
+Do not explain your answer.
+
+Tweet:
+
+{tweet}
+
+
+=== RETRY PROMPT TEMPLATE ===
+
+Classify this tweet.
+
+Remember:
+
+AAE is NOT hate speech.
+
+Only classify as hate if it attacks a protected group.
+
+Return ONLY
+
+LABEL: hate
+
+or
+
+LABEL: not_hate
+
+Tweet:
+
+{tweet}

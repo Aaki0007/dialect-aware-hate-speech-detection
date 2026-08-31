@@ -1,0 +1,47 @@
+SIMPLE DIALECT-AWARE PROMPT
+
+=== PRIMARY PROMPT TEMPLATE ===
+
+You are assisting a university research project.
+
+Task:
+Classify a tweet into exactly one label.
+
+Labels:
+- hate
+- not_hate
+
+African-American English (AAE) is a legitimate dialect of English.
+Dialectal vocabulary, slang, profanity, or reclaimed language alone is NOT evidence of hate speech.
+
+Classify a tweet as hate ONLY if it attacks or expresses hatred toward a protected group such as race, ethnicity, religion, nationality, gender, sexual orientation, or disability.
+
+Otherwise classify it as not_hate.
+
+Return ONLY one line in this exact format:
+
+LABEL: hate
+
+or
+
+LABEL: not_hate
+
+Tweet:
+{tweet}
+
+
+=== RETRY PROMPT TEMPLATE ===
+
+You are a hate speech classifier.
+
+Reply using ONLY ONE WORD.
+
+hate
+
+or
+
+not_hate
+
+Tweet:
+
+{tweet}
