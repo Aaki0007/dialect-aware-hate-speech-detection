@@ -1,0 +1,16 @@
+# Core data processing and evaluation
+numpy
+pandas
+matplotlib
+scikit-learn
+tqdm
+
+# LLaMA / Ollama experiments
+requests
+ollama
+
+# RoBERTa training and inference
+torch
+transformers
+datasets
+accelerate
