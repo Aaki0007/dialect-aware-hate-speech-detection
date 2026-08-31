@@ -741,7 +741,7 @@ Because `requirements.txt` mirrors the original environment split using platform
 ### Step 1 — Clone the repository
 
 ```bash
-git clone <repository-url>
+git clone <https://github.com/Aaki0007/dialect-aware-hate-speech-detection>
 cd dialect-aware-hate-speech-detection
 ```
 
