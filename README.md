@@ -1,4 +1,4 @@
-# Dialect-Aware Hate-Speech Detection
+# Mitigating Racial Bias in Hate Speech Detection through Dialect-Aware Prompting
 
 **Reproducibility repository for the MSc thesis _“Mitigating Racial Bias in Hate Speech Detection through Dialect-Aware Prompting”_**
 
