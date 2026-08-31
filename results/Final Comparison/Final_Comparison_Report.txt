@@ -1,0 +1,27 @@
+======================================================================
+MASTER THESIS
+FINAL MODEL COMPARISON
+======================================================================
+
+Overall Results
+----------------------------------------------------------------------
+
+       Experiment  Accuracy  Precision  Recall     F1  High AAE FPR  Middle FPR  Low AAE FPR  High-Low Gap
+        Zero-Shot    0.2558     0.0639  0.9340 0.1196        0.9291      0.8519       0.4820        0.4471
+    Simple Prompt    0.5875     0.1090  0.8775 0.1939        0.5372      0.4614       0.2895        0.2477
+Structured Prompt    0.6570     0.1246  0.8224 0.2163        0.5969      0.3674       0.2507        0.3462
+          RoBERTa    0.9448     0.5283  0.3925 0.4504        0.0078      0.0115       0.0630       -0.0553
+
+Best Models
+----------------------------------------------------------------------
+
+Highest Accuracy : RoBERTa (0.9448)
+Highest Precision : RoBERTa (0.5283)
+Highest Recall : Zero-Shot (0.9340)
+Highest F1 : RoBERTa (0.4504)
+Lowest High-AAE FPR : RoBERTa (0.0078)
+Smallest Fairness Gap : RoBERTa (-0.0553)
+
+======================================================================
+END OF REPORT
+======================================================================

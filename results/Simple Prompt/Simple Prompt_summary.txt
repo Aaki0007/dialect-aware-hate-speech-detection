@@ -1,0 +1,19 @@
+Experiment: Simple Prompt
+
+Total Rows: 3717
+Valid Rows: 3607
+Refusals : 110
+
+Accuracy : 0.5875
+Precision: 0.1090
+Recall   : 0.8775
+F1 Score : 0.1939
+
+Confusion Matrix
+[[1940 1463]
+ [  25  179]]
+
+   rows  accuracy  precision    recall        f1       FPR       FNR       TPR       TNR   Dialect
+0   126  0.484127   0.071429  1.000000  0.133333  0.537190  0.000000  1.000000  0.462810  high_aae
+1  2722  0.553637   0.079632  0.888889  0.146170  0.461420  0.111111  0.888889  0.538580    middle
+2   759  0.725955   0.263158  0.853659  0.402299  0.289513  0.146341  0.853659  0.710487   low_aae

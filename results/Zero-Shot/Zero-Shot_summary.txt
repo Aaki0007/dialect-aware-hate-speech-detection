@@ -1,0 +1,19 @@
+Experiment: Zero-Shot
+
+Total Rows: 3717
+Valid Rows: 3639
+Refusals : 78
+
+Accuracy : 0.2558
+Precision: 0.0639
+Recall   : 0.9340
+F1 Score : 0.1196
+
+Confusion Matrix
+[[ 747 2695]
+ [  13  184]]
+
+   rows  accuracy  precision    recall        f1       FPR       FNR       TPR       TNR   Dialect
+0   131  0.099237   0.032787  1.000000  0.063492  0.929134  0.000000  1.000000  0.070866  high_aae
+1  2761  0.180732   0.045301  0.938596  0.086430  0.851908  0.061404  0.938596  0.148092    middle
+2   747  0.560910   0.184810  0.924051  0.308017  0.482036  0.075949  0.924051  0.517964   low_aae

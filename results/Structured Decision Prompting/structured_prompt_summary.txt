@@ -1,0 +1,15 @@
+============================================================
+Structured Prompt Experiment Summary
+============================================================
+
+Model               : llama3
+Dataset Size        : 3717
+Total Predictions   : 3717
+Refusals            : 0
+Refusal Rate (%)    : 0.00
+
+Prediction Distribution
+-----------------------
+predicted_label
+not_hate    2304
+hate        1413

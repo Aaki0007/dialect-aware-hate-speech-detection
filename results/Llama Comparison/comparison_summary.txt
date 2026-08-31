@@ -1,0 +1,45 @@
+======================================================================
+MASTER THESIS
+LLaMA EXPERIMENT COMPARISON REPORT
+======================================================================
+
+Experiments Compared
+------------------------------
+- Zero-Shot
+- Simple Prompt
+- Structured Decision Prompting
+
+OVERALL PERFORMANCE
+------------------------------
+                   Experiment  Accuracy  Precision   Recall       F1  Total Predictions  Refusals  Refusal Rate
+                    Zero-Shot  0.255840   0.063911 0.934010 0.119636               3717        78      2.098467
+                Simple Prompt  0.587469   0.109013 0.877451 0.193933               3717       110      2.959376
+Structured Decision Prompting  0.656981   0.124558 0.822430 0.216349               3717         0      0.000000
+
+FAIRNESS METRICS
+------------------------------
+                   Experiment  High AAE FPR  Middle FPR  Low AAE FPR  High AAE FNR  Middle FNR  Low AAE FNR  High-Low FPR Gap
+                    Zero-Shot      0.929134    0.851908     0.482036           0.0    0.061404     0.075949          0.447098
+                Simple Prompt      0.537190    0.461420     0.289513           0.0    0.111111     0.146341          0.247678
+Structured Decision Prompting      0.596899    0.367385     0.250733           0.0    0.153226     0.226190          0.346166
+
+IMPROVEMENTS VS ZERO-SHOT
+------------------------------
+                   Experiment  Accuracy Improvement  Precision Improvement  Recall Change  F1 Improvement  Refusal Rate Change
+                    Zero-Shot              0.000000               0.000000       0.000000        0.000000             0.000000
+                Simple Prompt              0.331629               0.045102      -0.056559        0.074297            -0.860909
+Structured Decision Prompting              0.401142               0.060647      -0.111580        0.096713             2.098467
+
+BEST RESULTS
+------------------------------
+Highest Accuracy : Structured Decision Prompting (0.6570)
+Highest Precision : Structured Decision Prompting (0.1246)
+Highest Recall : Zero-Shot (0.9340)
+Highest F1 Score : Structured Decision Prompting (0.2163)
+Lowest Refusal Rate : Structured Decision Prompting (0.00%)
+Lowest High-AAE FPR : Simple Prompt (0.5372)
+Smallest High-Low FPR Gap : Simple Prompt (0.2477)
+
+======================================================================
+END OF REPORT
+======================================================================

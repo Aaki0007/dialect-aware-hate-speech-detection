@@ -1,0 +1,19 @@
+Experiment: Structured Decision Prompting
+
+Total Rows: 3717
+Valid Rows: 3717
+Refusals : 0
+
+Accuracy : 0.6570
+Precision: 0.1246
+Recall   : 0.8224
+F1 Score : 0.2163
+
+Confusion Matrix
+[[2266 1237]
+ [  38  176]]
+
+   rows  accuracy  precision    recall        f1       FPR       FNR       TPR       TNR   Dialect
+0   135  0.429630   0.072289  1.000000  0.134831  0.596899  0.000000  1.000000  0.403101  high_aae
+1  2816  0.642045   0.095978  0.846774  0.172414  0.367385  0.153226  0.846774  0.632615    middle
+2   766  0.751958   0.275424  0.773810  0.406250  0.250733  0.226190  0.773810  0.749267   low_aae
