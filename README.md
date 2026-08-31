@@ -1232,3 +1232,12 @@ Users are responsible for reviewing and complying with the original third-party 
 
 ---
 
+## Author
+
+**Aakash Vashist**  
+M.Sc. Big Data & Artificial Intelligence  
+SRH University of Applied Sciences, Leipzig, Germany  
+
+Master’s thesis:  
+*Mitigating Racial Bias in Hate Speech Detection through Dialect-Aware Prompting*
+
