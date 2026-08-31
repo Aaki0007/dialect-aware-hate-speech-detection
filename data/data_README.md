@@ -451,44 +451,7 @@ The final test set contains only six `hate` observations in the High-AAE group. 
 
 ---
 
-# 14. Citation
-
-If you use the DWMW17 dataset, cite:
-
-```text
-Davidson, T., Warmsley, D., Macy, M., & Weber, I. (2017).
-Automated Hate Speech Detection and the Problem of Offensive Language.
-Proceedings of the 11th International AAAI Conference on Web and Social Media
-(ICWSM 2017), 512-515.
-```
-
-If you use the TwitterAAE demographic language model, cite:
-
-```text
-Blodgett, S. L., Green, L., & O'Connor, B. (2016).
-Demographic Dialectal Variation in Social Media:
-A Case Study of African-American English.
-Proceedings of the 2016 Conference on Empirical Methods
-in Natural Language Processing (EMNLP).
-```
-
-Researchers should also consult the original source pages for the latest access and usage conditions:
-
-- DWMW17 download used in this project:  
-  https://www.kaggle.com/datasets/mrmorj/hate-speech-and-offensive-language-dataset
-
-- Davidson et al. original repository:  
-  https://github.com/t-davidson/hate-speech-and-offensive-language
-
-- TwitterAAE official page:  
-  https://slanglab.cs.umass.edu/TwitterAAE/
-
-- TwitterAAE model repository:  
-  https://github.com/slanglab/twitteraae
-
----
-
-# 15. Quick reproducibility checklist
+# 14. Quick reproducibility checklist
 
 Before running the modeling experiments, verify:
 
