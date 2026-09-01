@@ -745,8 +745,6 @@ git clone https://github.com/Aaki0007/dialect-aware-hate-speech-detection
 cd dialect-aware-hate-speech-detection
 ```
 
-Replace `<repository-url>` with the final public repository URL.
-
 ### Step 2 — Create an isolated Python environment
 
 Example:
