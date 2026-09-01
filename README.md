@@ -1239,5 +1239,5 @@ M.Sc. Big Data & Artificial Intelligence
 SRH University of Applied Sciences, Leipzig, Germany  
 
 Master’s thesis:  
-*Mitigating Racial Bias in Hate Speech Detection through Dialect-Aware Prompting*
+*Mitigating Racial Bias In Hate Speech Detection Through Dialect-Aware Prompting*
 
